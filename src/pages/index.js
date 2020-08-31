@@ -15,7 +15,7 @@ const IndexPage = () => (
     <div class="columns is-centered">
       <div class="column is-4" style={{'margin-left':'1.5rem', 'margin-right':'1.5rem'}}>
           <center>
-            
+            {/* this is used to  change the profile image on the main page*/}
             <img class={"img-rounded"} src={"/img/photo.jpg"} style={{'border-radius' : '50%','width' : '14rem'}}/>
             <p class="subtitle is-3" style={{'margin-bottom' : '.3rem'}}>Charles Rockhead</p>
             <p style={{'margin-bottom' : '1.2rem'}}><ContactBar/></p>
