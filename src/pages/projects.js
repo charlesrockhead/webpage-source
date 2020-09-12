@@ -18,9 +18,9 @@ const Projects = () => (
   <div class="card">
     <div class="card-header">
       <p class="card-header-title">
-        Reinforcement Learning Poker
+        Space Invada
       </p>
-      <a href="https://github.com/mukund-v/poker-rnn">
+      <a href="https://github.com/charlesrockhead/Space-Invada">
       <span class="icon">
         <FaLink/>
       </span>
@@ -28,21 +28,21 @@ const Projects = () => (
     </div>
     <div class="card-content">
       <p>
-        Using reinforcement learning methods to teach an agent to play the game of Limit Hold-Em Poker using the rl-card environment. Wrote Deep Q-Learning agent
-        and Neural Fictitious Self Play agent and formulated recurrent variations of both learning algorithms to induce the modelling bias of sequential
-        strategy in poker gameplay.
+      Co-Developed a rehabilitation robotic design project (ENGR 140) which improved the grip function of stroke patients by creating a pressure-based 
+      end- effector that allowed stroke patients to play our customized version of ‘Space Invaders’ that scales with their motor function thus 
+      allowing them to improve their grip functtion and hand-eye coordination over time.
       </p>
       <br/>
-      <p style={{"text-align" : "right"}}><i>Feb - May 2020</i></p>
+      <p style={{"text-align" : "right"}}><i>March - June 2019</i></p>
     </div>
   </div>
   <br/>
   <div class="card">
       <div class="card-header">
         <p class="card-header-title">
-          Turkish Judge
+          "Oh, The Places You'll Go!"
         </p>
-        <a href="https://github.com/mukund-v/turkish-judge">
+        <a href="https://github.com/riya-n/nets150_finalproject">
           <span class="icon">
             <FaLink/>
           </span>
@@ -50,12 +50,13 @@ const Projects = () => (
       </div>
       <div class="card-content">
         <p>
-        Implementation of a self-sufficient appeals system for Amazon Mechanical Turk (AMT). In particular, my partner and I designed a web application
-        through which AMT workers are able to appeal their rejected tasks to be adjudicated by other workers on the AMT platform. A game theoretic analysis of the truthfulness properties of the Mechanism was also conducted after
-        formulating as a peer prediction problem.
+        NETS 150 final project which  allows users to find a city to travel to in the United States and provides them with the best flight route based on cost. 
+        Users choose from a finite set of listed attractions/features, departure dates and then we provided them with a corresponding list of destinations and optimal flight routes. 
+        This is achieved through using webscraping with the jSoup API, and using Dijkstra’s Algorithm to find the cheapest flights to our recommended destinations.
+
         </p>
         <br/>
-        <p style={{"text-align" : "right"}}><i>Mar 2019 - current</i></p>
+        <p style={{"text-align" : "right"}}><i>April 2020 - May 2020</i></p>
       </div>
     </div>
   </div>
@@ -64,9 +65,9 @@ const Projects = () => (
     <div class="card">
       <div class="card-header">
         <p class="card-header-title">
-          Question Answering with Distilled Transformers
+          AlgoTrading
         </p>
-        <a href="https://github.com/mukund-v/cis530project">
+        <a href="https://github.com/charlesrockhead/AlgoTrading">
         <span class="icon">
           <FaLink/>
         </span>
@@ -74,14 +75,15 @@ const Projects = () => (
       </div>
       <div class="card-content">
         <p>
-        Fine-tuning pre-trained BERT models for performance on the SQuAD dataset using HuggingFace transformers library. Experimenting with BERT, RoBERTa, DistilBERT, DistilRoBERTa to
-        anaylze how different pre-training approaches and distillation of a transformer model affect inference time and performance on the context Q/A task in particular.
+         Using the Alpaca API, in order to implement the 50-20 day moving average trading strategy in which the program 
+         will enter long and short positions on particular stocks based on the intersection of those moving averages.
         </p>
         <br/>
-        <p style={{"text-align" : "right"}}><i>Apr - May 2020</i></p>
+        <p style={{"text-align" : "right"}}><i>Aug - Sept 2020</i></p>
       </div>
     </div>
     <br/>
+{/*  
     <div class="card">
       <div class="card-header">
         <p class="card-header-title">
@@ -103,9 +105,10 @@ const Projects = () => (
       </div>
     </div>
     <br/>
+*/}
     
   </div>
-
+{/* 
     <div class="column is-one-fifth">
       <div class="card">
         <div class="card-header">
@@ -130,7 +133,7 @@ const Projects = () => (
         </div>
       </div>
     </div>
-
+ */}
 
   </div>
   </div>

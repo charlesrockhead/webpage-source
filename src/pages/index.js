@@ -22,13 +22,13 @@ const IndexPage = () => (
           </center>
 
           <p align="left">
-            Hi! I'm Mukund. I'm currently a junior at the University of Pennsylvania where I am completing my Bachelors in Networked and Social Systems Engineering (NETS) and my Masters in Data Science (Machine Learning). 
+            Hey! I'm Charles. I'm currently a junior at the University of Pennsylvania where I am completing my Computer Science (CSCI) and I'm originally from Kingston, Jamaica. 
             <br/><br/>
-            Currently, I'm working on <a href="https://github.com/catacomb-ai/catacomb">Catacomb</a>, a library for deploying machine learning prototypes with a simple UI, conducting quality assurance, and tracking production model performance. 
+            Currently, I'm working on stock bot with <a href="https://github.com/anyareddy"> Anya Reddy </a>, which aims to use the alpaca API to conduct algo trading using 20,50 day moving averages strategy.
             <br/><br/>
-            I'm also working on a few research projects with Penn NLP including training code summarization models to translate Python code snippets to their English intent and <a href="https://github.com/mukund-v/turkish-judge">Turkish Judge</a>, a crowd-based adjudication platform to resolve rejected tasks on Amazon Mechanical Turk.
+            I'm also working on a research project with Center of Neuroengineering and Therapeautics in which we are using machine learning to model seizure spread in epileptic patients in order to improve better patients outcomes in resective surgury.
             <br/><br/>
-            In my freetime, I enjoy practicing table tennis, taking photos, and playing poker and Go, which I've recently started to learn after watching the AlphaGo documentary.
+            In my freetime, I enjoy playing water sports, hanging out with friends, and learning about business decisions which impact my everyday life.
           </p>
       </div>
     </div>
